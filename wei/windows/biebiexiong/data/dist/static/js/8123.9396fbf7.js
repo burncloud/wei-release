@@ -1,0 +1,6 @@
+/*!
+ *  build: Vue  Admin Plus
+ *  copyright: vue-admin-beautiful.com
+ *  time: 2024-03-07 17:07:58
+ */
+"use strict";(self["webpackChunkadmin_plus"]=self["webpackChunkadmin_plus"]||[]).push([[8123],{81464:function(e,n,t){t.d(n,{Z:function(){return i}});var s=t(81095),c=t(26593);function o(e,n=""){const t=n?`拷贝${n}成功`:`拷贝${e}成功`;s.gp.$baseMessage(t,"success","vab-hey-message-success",!1)}function u(e,n=""){const t=n?`拷贝${n}失败`:`拷贝${e}失败`;s.gp.$baseMessage(t,"error","vab-hey-message-success",!1)}function i(e,n=""){const{isSupported:t,copy:s}=(0,c.VPI)();t||(0,c.gIw)("clipboard-write"),s(e).then((()=>{o(e,n)})).catch((t=>{console.log(t),u(e,n)}))}},48123:function(e,n,t){t.r(n),t.d(n,{default:function(){return a}});var s=t(66252),c=t(2262),o=t(81464),u={__name:"index",props:{text:{type:String,default:""},title:{type:String,default:""}},setup(e){return(n,t)=>{const u=(0,s.up)("vab-icon");return(0,s.wg)(),(0,s.j4)(u,{icon:"file-copy-2-line",class:"cursor-pointer",onClick:t[0]||(t[0]=n=>(0,c.SU)(o.Z)(e.text,e.title))})}}};function i(e){e.__source="src/components/ClipboardButton/index.vue"}"function"===typeof i&&i(u);const r=u;var a=r}}]);
